@@ -938,10 +938,10 @@ class TensorIndexType(Basic):
         ``1``   :   metric tensor is fully symmetric
         ``0``   :   metric tensor possesses no index symmetry
         ``-1``  :   metric tensor is fully antisymmetric
-        ``None``:   there is no metric tensor (metric equals to `None`)
+        ``None``:   there is no metric tensor (metric equals to ``None``)
 
     The metric is assumed to be symmetric by default. It can also be set
-    to a custom tensor by the `.set_metric()` method.
+    to a custom tensor by the ``.set_metric()`` method.
 
     If there is a metric the metric is used to raise and lower indices.
 
